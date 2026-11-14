@@ -1,0 +1,16 @@
+{
+  "name": "minju-gatekeeper",
+  "version": "1.0.0",
+  "description": "Proof Gatekeeper agent for zkVerify Agent Games \u2014 deterministic trap checks + local Groth16 proofs (snarkjs), HMAC-signed endpoint.",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test-local.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.3.0",
+    "snarkjs": "^0.7.6"
+  }
+}
